@@ -1,8 +1,6 @@
 # Task Tracker CLI (Pure PHP)
 
-This project implements the **roadmap.sh Task Tracker** project requirements as a **CLI application** in **pure PHP**, persisting tasks in a **JSON file**.
-
-- https://roadmap.sh/projects/task-tracker
+This project implements the **Task Tracker** project requirements as a **CLI application** in **pure PHP**, persisting tasks in a **JSON file**.
 
 ## Requirements covered
 
@@ -104,3 +102,11 @@ Tasks are stored in `tasks.json` as an array of objects:
 - IDs are generated as `max(id) + 1`.
 - Storage is file-based; no database required.
 - Uses atomic writes (write temp file then rename) for safer persistence.
+
+## Project Scope
+
+This project is inspired by a backend practice idea from roadmap.sh.
+All implementation details, architectural decisions, and extensions are independently designed and implemented.
+
+### Reference
+- https://roadmap.sh/projects/task-tracker
